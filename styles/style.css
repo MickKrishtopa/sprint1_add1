@@ -1,0 +1,155 @@
+.page {
+  margin: 0 auto;
+  width: 1920px;
+  min-height: 1080px;
+  display: flex;
+  flex-flow: column;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.pricing-title {
+  margin: 137px auto 0;
+  min-width: 670px;
+  height: 80px;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: column;
+}
+
+.pricing-title__title {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.pricing-title__subtitle {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  width: 1082px;
+  margin: 0 auto;
+}
+.most-popular {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 31px;
+  background: linear-gradient(180deg, #63d6fe 0%, #5dd4f8 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-card {
+  margin: 68px auto 0;
+  width: 266px;
+  border-radius: 2px;
+  min-height: 601px;
+  background: linear-gradient(180deg, #fdc624 0%, #e6c434 99.36%);
+  color: white;
+  position: relative;
+}
+
+.content-card__image {
+  height: 201px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-card__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  /* color: white; */
+  margin: 0 0 0 35px;
+}
+
+.content-card__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* color: white; */
+  margin: 0 0 27px 35px;
+}
+
+.content-card__price {
+  margin: 0 0 0 35px;
+  display: flex;
+  position: relative;
+}
+.content-card__currency {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-card__number {
+  margin: 0 0 0 11px;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 79px;
+}
+
+.content-card__description {
+  list-style-image: url(../images/image-list-style.png);
+}
+
+.content-card__description-string {
+  margin: 8 0 0 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.content-card__description-string:not(:last-child) {
+  margin-bottom: 17px;
+}
+.content-card__bottom {
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 36px;
+  right: 35px;
+  width: 196px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+}
+.content-card_personal {
+  background: linear-gradient(180deg, #fdc624 0%, #e6c434 99.36%);
+}
+
+.content-card_business {
+  background: linear-gradient(180deg, #55dce7 0%, #3dcad4 100%);
+}
+
+.content-card_developer {
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+}
+
+.content-card_agency {
+  background: linear-gradient(180deg, #bfcedc 0%, #939fb3 100%);
+}
