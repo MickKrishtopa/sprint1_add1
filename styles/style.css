@@ -138,6 +138,9 @@
   background-color: transparent;
   color: white;
 }
+.content-card__bottom:hover {
+  color: blueviolet;
+}
 .content-card_personal {
   background: linear-gradient(180deg, #fdc624 0%, #e6c434 99.36%);
 }
